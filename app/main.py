@@ -18,9 +18,6 @@ def go_to_cafe(friends: list[dict], cafe: Cafe) -> str:
             vaccine_problem_found = True
             break
 
-        except Exception:
-            break
-
     if vaccine_problem_found:
         return "All friends should be vaccinated"
 
